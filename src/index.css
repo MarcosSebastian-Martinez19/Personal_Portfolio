@@ -68,18 +68,13 @@ h1 {
 }
 
 section {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-primary);
-}
-
-section > h2 {
-  color: var(--color-white);
-  margin-bottom: 3rem;
 }
 
 .text-light {
@@ -142,7 +137,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  section > h2 {
-    margin-top: 2rem;
+  section {
+    margin-top: 6rem;
   }
 }

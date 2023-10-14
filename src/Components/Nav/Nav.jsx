@@ -17,15 +17,19 @@ export const Nav = () => {
             <nav>
                 <Link to="/" onClick={() => setActiveNav("/")} className={activeNav === "/" ? "active" : ""}>
                     <FaHome />
+                    <p href="#">Sobre Mi</p>
                 </Link>
                 <Link to="/Experience" onClick={() => setActiveNav("/Experience")} className={activeNav === "/Experience" ? "active" : ""}>
                     <FaBook />
+                    <p href="#">Herramientas</p>
                 </Link>
                 <Link to="/Portfolio" onClick={() => setActiveNav("/Portfolio")} className={activeNav === "/Portfolio" ? "active" : ""}>
                     <MdWorkOutline />
+                    <p href="#">Proyectos</p>
                 </Link>
                 <Link to="/Contact" onClick={() => setActiveNav("/Contact")} className={activeNav === "/Contact" ? "active" : ""}>
                     <FaTelegramPlane />
+                    <p href="#">Contacto</p>
                 </Link>
             </nav>
             <main>

@@ -41,7 +41,6 @@ export const Portfolio = () => {
 
     return (
         <section id="portfolio">
-            <h2>Portafolio</h2>
             <Search onSearch={handleSearch} />
             {
                 valueSearch !== "" ? <div className="result__container">

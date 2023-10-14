@@ -5,7 +5,6 @@ import { SiJavascript, SiTypescript, SiAngular, SiNetlify, SiLinux, SiVisualstud
 export const Experience = () => {
     return (
         <section>
-            <h2>Lenguajes y Herramientas</h2>
             <div className="container experience__container">
                 <div className="experience__frontend">
                     {/* <h3>Lenguajes y Herramientas</h3> */}
