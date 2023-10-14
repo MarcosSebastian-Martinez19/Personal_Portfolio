@@ -7,7 +7,7 @@ export const Experience = () => {
         <section>
             <div className="container experience__container">
                 <div className="experience__frontend">
-                    {/* <h3>Lenguajes y Herramientas</h3> */}
+                    <h3>Lenguajes</h3>
                     <div className="experience__content">
                         <article className="experience__details">
                             <div>
@@ -23,18 +23,6 @@ export const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <div>
-                            <FaSass className="experience__details-icon" />
-                            <h4>SASS</h4>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <div>
-                            <FaBootstrap className="experience__details-icon" />
-                            <h4>Bootstrap</h4>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <div>
                             <SiJavascript className="experience__details-icon" />
                             <h4>JavaScript</h4>
                             </div>
@@ -43,18 +31,6 @@ export const Experience = () => {
                             <div>
                             <SiTypescript className="experience__details-icon" />
                             <h4>TypeScript</h4>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <div>
-                            <FaReact className="experience__details-icon" />
-                            <h4>React JS</h4>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <div>
-                            <SiAngular className="experience__details-icon" />
-                            <h4>Angular</h4>
                             </div>
                         </article>
                         <article className="experience__details">
@@ -75,6 +51,35 @@ export const Experience = () => {
                             <h4>Haskell</h4>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div className="experience__frontend">
+                    <h3>Librerias y Frameworks</h3>
+                    <div className="experience__content">
+                        <article className="experience__details">
+                            <div>
+                            <FaBootstrap className="experience__details-icon" />
+                            <h4>Bootstrap</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <FaReact className="experience__details-icon" />
+                            <h4>React JS</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <SiAngular className="experience__details-icon" />
+                            <h4>Angular</h4>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div className="experience__frontend">
+                    <h3>Herramientas</h3>
+                    <div className="experience__content">
+                        
                         <article className="experience__details">
                             <div>
                             <FaGitAlt className="experience__details-icon" />
@@ -99,6 +104,11 @@ export const Experience = () => {
                             <h4>Netlify</h4>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div className="experience__frontend">
+                    <h3>Sistemas Operativos</h3>
+                    <div className="experience__content">
                         <article className="experience__details">
                             <div>
                             <SiLinux className="experience__details-icon" />
