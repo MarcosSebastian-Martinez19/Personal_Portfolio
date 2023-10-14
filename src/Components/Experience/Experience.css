@@ -1,13 +1,14 @@
 .experience__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-content: center;
     gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .experience__container>div {
+    width: 320px;
     background: transparent;
-    padding: 2.4rem 5rem;
+    padding: 1rem 2.5rem;
     border-radius: 2rem;
     border: 2px solid var(--color-primary-variant);
     transition: var(--transition);
@@ -21,11 +22,12 @@
 }
 
 .experience__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-content: center;
-    row-gap: 2rem;
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
 }
 
 .experience__details {
@@ -36,10 +38,17 @@
     color: var(--color-white);
 }
 
+.experience__details > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 /* -------------------------------- MEDIA QUERIES (MEDIUM DEVICES) -------------------------------- */
@@ -49,35 +58,16 @@
         height: max-content;
     }
 
-    .experience__container {
-        grid-template-columns: 1fr;
-    }
-
     .experience__container>div {
-        width: 95%;
-        padding: 2rem;
         margin: 0 auto;
     }
 
-    .experience__content {
-        padding: .5rem;
-    }
 }
 
 /* -------------------------------- MEDIA QUERIES (SMALL DEVICES) -------------------------------- */
 
 @media screen and (max-width: 600px) {
     .experience__container {
-        grid-template-columns: 1fr;
         gap: 1rem;
-    }
-
-    .experience__container>div {
-        width: 100%;
-        padding: 2rem .3rem;
-    }
-
-    .experience__content {
-        grid-template-columns: 1fr 1fr;
     }
 }

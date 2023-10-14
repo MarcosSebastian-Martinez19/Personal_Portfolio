@@ -1,7 +1,8 @@
 import React from "react";
 import "./Experience.css";
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaNpm, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiAngular, SiNetlify, SiLinux, SiVisualstudiocode, SiCsharp, SiWindows, SiNodedotjs, SiC, SiHaskell } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaGitAlt, FaGithub, FaGoogle } from "react-icons/fa";
+import { SiJavascript, SiTypescript, SiAngular, SiNetlify, SiLinux, SiVisualstudiocode, SiCsharp, SiWindows, SiC, SiHaskell, SiMicrosoftoffice } from "react-icons/si";
+
 export const Experience = () => {
     return (
         <section>
@@ -54,7 +55,7 @@ export const Experience = () => {
                     </div>
                 </div>
                 <div className="experience__frontend">
-                    <h3>Librerias y Frameworks</h3>
+                    <h3>Librerías y Frameworks</h3>
                     <div className="experience__content">
                         <article className="experience__details">
                             <div>
@@ -79,7 +80,6 @@ export const Experience = () => {
                 <div className="experience__frontend">
                     <h3>Herramientas</h3>
                     <div className="experience__content">
-                        
                         <article className="experience__details">
                             <div>
                             <FaGitAlt className="experience__details-icon" />
@@ -102,6 +102,18 @@ export const Experience = () => {
                             <div>
                             <SiNetlify className="experience__details-icon" />
                             <h4>Netlify</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <SiMicrosoftoffice className="experience__details-icon" />
+                            <h4>Paquete Office</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <FaGoogle className="experience__details-icon" />
+                            <h4>Google Docs</h4>
                             </div>
                         </article>
                     </div>
